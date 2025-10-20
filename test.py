@@ -1,9 +1,5 @@
 def add(a, b):
     return a + b
-
-def subtract(a, b):
-    return a - b
-
 def multiply(a, b):
     return a * b
 
@@ -35,8 +31,6 @@ def main():
 
         if operator == '+':
             result = add(num1, num2)
-        elif operator == '-':
-            result = subtract(num1, num2)
         elif operator == '*':
             result = multiply(num1, num2)
         elif operator == '/':

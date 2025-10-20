@@ -13,7 +13,7 @@ def divide(a, b):
     return a / b
 
 def main():
-# ⚠️ Avoid using print() in production code.
+
     print("🧮 Simple Calculator")
     print("Operations: +, -, *, /")
 
@@ -21,7 +21,7 @@ def main():
         # Get user input
         num1 = input("Enter the first number (or 'q' to quit): ")
         if num1.lower() == 'q':
-# ⚠️ Avoid using print() in production code.
+
             print("Goodbye!")
             break
         num2 = input("Enter the second number: ")
@@ -32,7 +32,7 @@ def main():
             num1 = float(num1)
             num2 = float(num2)
         except ValueError:
-# ⚠️ Avoid using print() in production code.
+
             print("⚠️ Invalid number. Try again.\n")
             continue
 
@@ -46,11 +46,11 @@ def main():
         elif operator == '/':
             result = divide(num1, num2)
         else:
-# ⚠️ Avoid using print() in production code.
+
             print("⚠️ Invalid operator. Use +, -, *, or /.\n")
             continue
 
-# ⚠️ Avoid using print() in production code.
+
         print(f"Result: {result}\n")
 
 if __name__ == "__main__":

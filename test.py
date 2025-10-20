@@ -1,4 +1,3 @@
-```python
 def add(a, b):
     return a + b
 
@@ -52,9 +51,7 @@ def main():
 if __name__ == "__main__":
     main()
 
-# AI Review: The code meets all the assignment requirements.
 # The calculator can add, subtract, multiply, and divide.
 # There are no missing requirements.
 
 # Progress: 100%
-```

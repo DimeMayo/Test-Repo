@@ -1,14 +1,18 @@
-
+# Missing requirement: The multiplication operation is not implemented.
+# Progress: 75%
 
 def add(a, b):
     return a + b
 
+# AI Review: The function name is misspelled; it should be 'subtract' instead of 'subtrcat'.
 def subtrcat(a, b):
     return a - b
     
 def divide(a, b):
     return a / b
 
+# AI Review: The multiplication operation is missing. Implement a multiply function.
+# AI Review: The function 'subtract' is referenced but not defined; it should be 'subtrcat'.
 def main():
     print("🧮 Simple Calculator")
     print("Operations: +, -, *, /")
@@ -33,6 +37,7 @@ def main():
         if operator == '+':
             result = add(num1, num2)
         elif operator == '-':
+            # AI Review: The function 'subtract' is referenced but not defined; it should be 'subtrcat'.
             result = subtract(num1, num2)
         elif operator == '/':
             result = divide(num1, num2)
@@ -41,4 +46,3 @@ def main():
             continue
 
         print(f"Result: {result}\n")
-

@@ -1,5 +1,10 @@
 def add(a, b):
     return a + b
+
+# AI Review: Subtraction function is missing. Implement a subtraction function.
+def subtract(a, b):
+    return a - b
+
 def multiply(a, b):
     return a * b
 
@@ -31,6 +36,9 @@ def main():
 
         if operator == '+':
             result = add(num1, num2)
+        # AI Review: Subtraction operation is missing. Add a condition for subtraction.
+        elif operator == '-':
+            result = subtract(num1, num2)
         elif operator == '*':
             result = multiply(num1, num2)
         elif operator == '/':
@@ -46,6 +54,6 @@ if __name__ == "__main__":
     main()
 
 # The calculator can add, subtract, multiply, and divide.
-# There are no missing requirements.
+# There are missing requirements: the subtraction function and its implementation in the main function.
 
-# Progress: 100%
+# Progress: 75%
